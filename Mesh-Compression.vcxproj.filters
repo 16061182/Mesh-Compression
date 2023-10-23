@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include\imgui">
+      <UniqueIdentifier>{00824b8a-dbfe-4b97-bbee-58ea83d09289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{0cb24228-81c9-492b-98bc-7c33ceff246b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\shader">
+      <UniqueIdentifier>{00b90baa-3bac-4174-a1a4-615fd0b8e1cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source\display">
+      <UniqueIdentifier>{e96790fc-0a6e-45a0-9516-188c0a63748f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\algorithm">
+      <UniqueIdentifier>{9dc9c9cc-1a7f-4b13-8672-23b6d89fe434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\glad">
+      <UniqueIdentifier>{c3c4feb2-026e-4e3a-82de-b359f5b16684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\tools">
+      <UniqueIdentifier>{e3734564-6ef1-4241-aa0c-5e6a1c230575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\core">
+      <UniqueIdentifier>{2b7ea193-c859-4661-962d-dc4702acae5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GLFW">
+      <UniqueIdentifier>{fae0a097-65b6-452e-bfac-fe1b25730a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\learnopengl">
+      <UniqueIdentifier>{b9c0ad54-860f-4c3c-84b4-16a9c36b9a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\stb_image">
+      <UniqueIdentifier>{054df710-849b-4b50-98b5-12253363e2d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\tiny_obj_loader">
+      <UniqueIdentifier>{7803ec07-38a1-40a3-b603-7bb52d4ddccb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3rdparty\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>include\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>include\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\imgui\imgui.cpp">
+      <Filter>include\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\imgui\imgui_demo.cpp">
+      <Filter>include\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\imgui\imgui_draw.cpp">
+      <Filter>include\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\imgui\imgui_tables.cpp">
+      <Filter>include\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\imgui\imgui_widgets.cpp">
+      <Filter>include\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\display\polygon_picker.cpp">
+      <Filter>source\display</Filter>
+    </ClCompile>
+    <ClCompile Include="source\algorithm\compressor.cpp">
+      <Filter>source\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tools\load_obj_mesh.cpp">
+      <Filter>source\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="include\glad\glad.c">
+      <Filter>include\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\algorithm\parser.cpp">
+      <Filter>source\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\display\opengl_window.cpp">
+      <Filter>source\display</Filter>
+    </ClCompile>
+    <ClCompile Include="source\core\data.cpp">
+      <Filter>source\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3rdparty\imgui\backends\imgui_impl_glfw.h">
+      <Filter>include\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\imgui\backends\imgui_impl_opengl3.h">
+      <Filter>include\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\imgui\backends\imgui_impl_opengl3_loader.h">
+      <Filter>include\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\imgui\imconfig.h">
+      <Filter>include\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\imgui\imgui.h">
+      <Filter>include\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\imgui\imgui_internal.h">
+      <Filter>include\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\imgui\imstb_rectpack.h">
+      <Filter>include\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\imgui\imstb_textedit.h">
+      <Filter>include\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\imgui\imstb_truetype.h">
+      <Filter>include\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\core\core.h">
+      <Filter>source\core</Filter>
+    </ClInclude>
+    <ClInclude Include="source\display\polygon_picker.h">
+      <Filter>source\display</Filter>
+    </ClInclude>
+    <ClInclude Include="source\algorithm\compressor.h">
+      <Filter>source\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="source\tools\load_obj_mesh.h">
+      <Filter>source\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glad\glad.h">
+      <Filter>include\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GLFW\glfw3.h">
+      <Filter>include\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GLFW\glfw3native.h">
+      <Filter>include\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="include\learnopengl\camera.h">
+      <Filter>include\learnopengl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\learnopengl\mesh.h">
+      <Filter>include\learnopengl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\learnopengl\shader.h">
+      <Filter>include\learnopengl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stb_image\stb_image.h">
+      <Filter>include\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tiny_obj_loader\tiny_obj_loader_v1.h">
+      <Filter>include\tiny_obj_loader</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tiny_obj_loader\tiny_obj_loader_v2.h">
+      <Filter>include\tiny_obj_loader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\algorithm\parser.h">
+      <Filter>source\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="source\display\opengl_window.h">
+      <Filter>source\display</Filter>
+    </ClInclude>
+    <ClInclude Include="source\core\data.h">
+      <Filter>source\core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="3rdparty\imgui\misc\debuggers\imgui.natvis">
+      <Filter>include\imgui</Filter>
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\shader\model_loading_notex.vs">
+      <Filter>resource\shader</Filter>
+    </None>
+    <None Include="resource\shader\model_loading_notex.fs">
+      <Filter>resource\shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>

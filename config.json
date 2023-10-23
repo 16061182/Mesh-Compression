@@ -1,0 +1,7 @@
+{
+  "atoms": -1,
+  "N_bins": 10,
+  "patch_size_limit": 22,
+  "patch_normal_tolerance": 90.0,
+  "float_precision": 4
+}
